@@ -2,7 +2,7 @@ import moment from "moment";
 import React from "react";
 import { useParams } from "react-router-dom";
 import NotFound from "../../containers/NotFound";
-import list from "../../list";
+import list from "../../data/list";
 import Header from "./Header";
 import Problems from "./Problems";
 import Resources from "./Resources";

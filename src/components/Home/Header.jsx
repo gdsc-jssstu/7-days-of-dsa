@@ -2,10 +2,10 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
+    <div className="text-nunito-regular">
       <p>
         An informative DSA Roadmap is presented to you by GDSC-JSSSTU. Join us
-        and enjoy an amazing learning experience!
+        and start your DSA journey!
       </p>
       <div className="alert alert-info">
         <div>

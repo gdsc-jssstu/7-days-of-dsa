@@ -3,7 +3,7 @@ import React from "react";
 
 function Header({ day, date, topic }) {
   return (
-    <div className="border-bottom pb-1">
+    <div className="border-bottom pb-1 text-quicksand-medium">
       <h4 className="text-danger">
         {day}, {topic}
       </h4>
