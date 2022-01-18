@@ -3,7 +3,7 @@ const list = [
     day: "Day 1",
     topic: "Arrays and Strings",
     slug: "day-1-arrays-and-strings",
-    date: "2022-01-20",
+    date: "2022-01-17",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque voluptatibus amet! Error labore alias veritatis magni numquam perferendis, voluptatum quam laudantium placeat nesciunt modi, ipsa consectetur aliquid eum. Eum.",
     resources: {

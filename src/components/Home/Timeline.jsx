@@ -6,7 +6,7 @@ import list from "../../data/list";
 function Timeline() {
   return (
     <div className="mt-5">
-      <h4 className="text-quicksand-medium">Timeline</h4>
+      {/* <h4 className="text-quicksand-medium">Timeline</h4> */}
       <div className="border-top pt-2">
         {list.map((item) =>
           moment().isAfter(item.date) ? (

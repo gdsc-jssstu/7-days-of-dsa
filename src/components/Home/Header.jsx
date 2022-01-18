@@ -1,22 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="text-nunito-regular">
       <p>
-        An informative DSA Roadmap is presented to you by GDSC-JSSSTU. Join us
-        and start your DSA journey!
+        Google Developer Student Clubs, JSSSTU presnts to you an informative Data Structures and Algorithms Roadmap to start your DSA journey!
+      </p>
+      <p className="d-flex justify-content-center">
+      <iframe width="70%" height="250" src="https://www.youtube.com/embed/n1PCqikpZNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
       <div className="alert alert-info">
+        <h5>Before you start, make sure to:</h5>
         <div>
-          Make sure to join GDSC JSSSTU Community Server:{" "}
+          Join GDSC JSSSTU Community Server:{" "}
           <a href="https://discord.dscjssstu.in/">
             https://discord.dscjssstu.in/
           </a>
         </div>
-        <div className="mt-3">
+        <div className="">
+          Go through the FAQs&nbsp;
+          <Link to="/faq" className="text-decoration-none text-nunito-regular">
+            here!
+          </Link>
+        </div>
+        <div className="">
           Create an account on LeetCode:{" "}
           <a href="https://leetcode.com/">https://leetcode.com/</a>
+
         </div>
       </div>
     </div>
