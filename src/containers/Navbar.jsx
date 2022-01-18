@@ -19,7 +19,7 @@ function Navbar() {
               src={logo}
               alt="GDSC Logo"
               className="img-fluid"
-              style={{ width: 200, marginRight: 10 }}
+              style={{ width: 250, marginRight: 10 }}
             />
         </div>
       </div>
