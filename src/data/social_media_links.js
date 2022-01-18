@@ -1,5 +1,11 @@
 const social_media_links = [
   {
+    name: "Website",
+    "fontawesome-icon": "fal fa-globe fa-lg",
+    color: "text-light",
+    href: "https://dscjssstu.in/",
+  },
+  {
     name: "Instagram",
     "fontawesome-icon": "fab fa-instagram fa-lg",
     color: "text-insta",

@@ -11,7 +11,7 @@ function FAQ() {
           </h3>
           <div className="accordion" id="accordionExample">
             {faq.map((item, index) => (
-              <div class="accordion-item" key={item.question + index}>
+              <div className="accordion-item" key={item.question + index}>
                 <h2
                   className="accordion-header"
                   id={`accordion-heading-${index + 1}`}

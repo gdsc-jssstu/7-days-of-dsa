@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NotFound({ msg }) {
   return (
-    <div className="container my-5">
+    <div className="container my-5 text-quicksand-medium">
       <div class="col-md-5 mx-2 mx-md-auto card p-2">
         <div class="card-body text-center">
           <img

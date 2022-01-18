@@ -6,7 +6,7 @@ import list from "../../data/list";
 function Timeline() {
   return (
     <div className="mt-5">
-      <h4>Timeline</h4>
+      <h4 className="text-quicksand-medium">Timeline</h4>
       <div className="border-top pt-2">
         {list.map((item) =>
           moment().isAfter(item.date) ? (
@@ -20,7 +20,7 @@ function Timeline() {
 			 d-flex align-self-start justify-content-between shadow
 			  "
               >
-                <div>
+                <div className="text-nunito-regular">
                   <h5>{item.day}</h5>
                   <h6>{item.topic}</h6>
                 </div>
@@ -28,9 +28,9 @@ function Timeline() {
                   <p className="text-primary mb-0">
                     {item.problems.length} Problems
                   </p>
-                  <small className="text-secondary">
+                  <p style={{ fontSize: "0.8rem" }} className="text-secondary">
                     {moment(item.date).format("Do MMM YYYY")}
-                  </small>
+                  </p>
                 </div>
               </div>
             </Link>
@@ -40,13 +40,13 @@ function Timeline() {
               className="my-2 bg-light rounded-3 py-2 px-3 shadow"
             >
               <div className="d-flex align-self-end justify-content-between">
-                <div>
+                <div className="text-nunito-regular">
                   <h5>{item.day}</h5>
                   <h6>{item.topic}</h6>
                 </div>
-                <small>
+                <p style={{ fontSize: "0.8rem" }}>
                   Unlocks on <br /> {moment(item.date).format("Do MMM YYYY")}
-                </small>
+                </p>
               </div>
             </div>
           )

@@ -9,7 +9,7 @@ function Navbar() {
         <div className="navbar-brand">
           <Link
             to="/"
-            className="text-decoration-none text-light text-quicksand-medium"
+            className="text-decoration-none text-light text-quicksand-medium d-flex align-items-center"
           >
             <img
               src={logo}
@@ -17,11 +17,11 @@ function Navbar() {
               className="img-fluid rounded-circle"
               style={{ width: 35, marginRight: 10 }}
             />
-            <small>7 Days of DSA</small>
+            <h5 className="mt-2">7 Days of DSA</h5>
           </Link>
         </div>
         <div className="ml-auto d-flex align-items-center">
-          <Link to="/faq" className="text-decoration-none">
+          <Link to="/faq" className="text-decoration-none text-nunito-regular">
             FAQ
           </Link>
         </div>
