@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/gdsc-logo.PNG";
+import logo from "../assets/gdsc-logo.png";
 
 function Navbar() {
   return (
