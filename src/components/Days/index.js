@@ -33,8 +33,9 @@ function Days() {
           <div className="my-2">
             <p>{item.content}</p>
           </div>
-          <Problems problems={item.problems} />
           <Resources resources={item.resources} />
+          <Problems problems={item.problems} />
+          
         </div>
       </div>
     </div>
