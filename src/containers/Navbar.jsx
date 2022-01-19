@@ -15,12 +15,14 @@ function Navbar() {
           </Link>
         </div>
         <div className="ml-auto d-flex align-items-center">
-          <img
-            src={logo}
-            alt="GDSC Logo"
-            className="img-fluid"
-            style={{ width: 200, marginRight: 10 }}
-          />
+          <a href="https://dscjssstu.in/">
+            <img
+              src={logo}
+              alt="GDSC Logo"
+              className="img-fluid"
+              style={{ width: 250, marginRight: 10 }}
+            />
+          </a>
         </div>
       </div>
     </nav>
