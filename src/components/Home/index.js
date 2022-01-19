@@ -9,11 +9,14 @@ function Home() {
       <div className="container my-5">
         <div className="row d-flex justify-content-center">
           <div className="col-md-12">
-            <p className="text-center">
-              Google Developer Student Clubs, JSSSTU presnts to you an informative Data Structures and Algorithms Roadmap to start your DSA journey!<br/>
+            <p className="text-center text-nunito-regular">
+              Google Developer Student Clubs, JSSSTU presents to you an
+              informative Data Structures and Algorithms Roadmap to start your
+              DSA journey!
+              <br />
               Happy problem solving!
             </p>
-            <hr className="mb-5"/>
+            <hr className="mb-5" />
           </div>
         </div>
         <div className="row">

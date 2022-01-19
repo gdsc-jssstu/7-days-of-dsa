@@ -40,6 +40,18 @@ const list = [
         name: "Minimum Size Subarray Sum",
         link: "https://leetcode.com/problems/minimum-size-subarray-sum/",
       },
+      {
+        name: "Longest Substring Without Repeating Characters",
+        link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      },
+      {
+        name: "Longest Repeating Character Replacement",
+        link: "https://leetcode.com/problems/longest-repeating-character-replacement/",
+      },
+      {
+        name: "Minimum Window Substring",
+        link: "https://leetcode.com/problems/minimum-window-substring/",
+      },
     ],
   },
   {
@@ -82,6 +94,14 @@ const list = [
       {
         name: "Valid Parenthesis",
         link: "https://leetcode.com/problems/valid-parentheses/",
+      },
+      {
+        name: "Simplify Path",
+        link: "https://leetcode.com/problems/simplify-path/",
+      },
+      {
+        name: "Crawler Log Folder",
+        link: "https://leetcode.com/problems/crawler-log-folder/",
       },
     ],
   },

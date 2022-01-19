@@ -11,7 +11,7 @@ function Navbar() {
             to="/"
             className="text-decoration-none text-light text-quicksand-medium d-flex align-items-center"
           >
-            <h5 className="mt-2">7 Days of DSA</h5>
+            <h4 className="mt-2">7 Days of DSA</h4>
           </Link>
         </div>
         <div className="ml-auto d-flex align-items-center">
