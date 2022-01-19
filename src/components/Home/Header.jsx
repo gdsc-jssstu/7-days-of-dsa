@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="text-nunito-regular">
-      <p>
-        Google Developer Student Clubs, JSSSTU presnts to you an informative Data Structures and Algorithms Roadmap to start your DSA journey!
-      </p>
-      <p className="d-flex justify-content-center">
-      <iframe width="70%" height="250" src="https://www.youtube.com/embed/n1PCqikpZNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div className="text-nunito-regular mr-2 mr-md-5">
+      <p className="d-flex justify-content-start mt-2">
+      <iframe width="100%" height="350" src="https://www.youtube.com/embed/n1PCqikpZNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
       <div className="alert alert-info">
         <h5>Before you start, make sure to:</h5>
