@@ -3,7 +3,7 @@ const list = [
     day: "Day 1",
     topic: "Arrays and Strings",
     slug: "day-1-arrays-and-strings",
-    date: "2022-01-17",
+    date: "2022-01-20",
     content: `Let's start with arrays, the staple of any introductory programming course. An array is a collection of items of the same type stored at adjacent memory locations. For example, an array of fruits can contain the values 'Apple' and 'Banana'. Each value in an array can be accessed by its value (first element will usually have the index 0, second element will have the index 1 and so on). Accessing elements in an array is easy (through its index) but insertion and deletion of a value in array is a relatively costly operation.<br/><br/>  An array of characters is called a String. Any textual data you come across is often just a string - in this case, an array of letters. It can consist of alphabets, numbers, spaces and special characters. Strings are often enclosed in double quotation marks. For example, "DSA" is a string. It is an very important datatype and is very widely used.`,
     resources: {
       Blogs: [
