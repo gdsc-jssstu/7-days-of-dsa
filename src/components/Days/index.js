@@ -31,11 +31,10 @@ function Days() {
         <div className="col-lg-7 mx-2 mx-md-auto p-5 bg-light rounded-3">
           <Header day={item.day} topic={item.topic} date={item.date} />
           <div className="my-2">
-            <p>{item.content}</p>
+            <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
           </div>
           <Resources resources={item.resources} />
           <Problems problems={item.problems} />
-          
         </div>
       </div>
     </div>
