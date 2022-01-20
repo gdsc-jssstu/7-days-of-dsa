@@ -10,6 +10,8 @@ function Problems({ problems = [] }) {
             key={problem.link}
             className="list-group-item text-nunito-regular"
             href={problem.link}
+            target="_blank"
+            rel="noreferrer noopener"
           >
             <span>{index + 1}.</span> {problem.name}
           </a>

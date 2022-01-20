@@ -3,7 +3,7 @@ const list = [
     day: "Day 1",
     topic: "Arrays and Strings",
     slug: "day-1-arrays-and-strings",
-    date: "2022-01-17",
+    date: "2022-01-20",
     content: `Let's start with arrays, the staple of any introductory programming course. An array is a collection of items of the same type stored at adjacent memory locations. For example, an array of fruits can contain the values 'Apple' and 'Banana'. Each value in an array can be accessed by its value (first element will usually have the index 0, second element will have the index 1 and so on). Accessing elements in an array is easy (through its index) but insertion and deletion of a value in array is a relatively costly operation.<br/><br/>  An array of characters is called a String. Any textual data you come across is often just a string - in this case, an array of letters. It can consist of alphabets, numbers, spaces and special characters. Strings are often enclosed in double quotation marks. For example, "DSA" is a string. It is an very important datatype and is very widely used.`,
     resources: {
       Blogs: [
@@ -45,12 +45,8 @@ const list = [
         link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
       },
       {
-        name: "Longest Repeating Character Replacement",
-        link: "https://leetcode.com/problems/longest-repeating-character-replacement/",
-      },
-      {
-        name: "Minimum Window Substring",
-        link: "https://leetcode.com/problems/minimum-window-substring/",
+        name: "Valid Palindrome",
+        link: "https://leetcode.com/problems/valid-palindrome/",
       },
     ],
   },
@@ -103,6 +99,10 @@ const list = [
         name: "Crawler Log Folder",
         link: "https://leetcode.com/problems/crawler-log-folder/",
       },
+      {
+        name: "Find the Winner of the Circular Game",
+        link: "https://leetcode.com/problems/find-the-winner-of-the-circular-game/",
+      },
     ],
   },
   {
@@ -131,12 +131,20 @@ const list = [
     },
     problems: [
       {
-        name: "Two Sum",
-        link: "https://leetcode.com/link-to-problem",
+        name: "Linked List Cycle",
+        link: "https://leetcode.com/problems/linked-list-cycle/",
       },
       {
-        name: "Palindromic String",
-        link: "https://leetcode.com/link-to-problem",
+        name: "Merge Two Sorted Lists",
+        link: "https://leetcode.com/problems/merge-two-sorted-lists/",
+      },
+      {
+        name: "Palindrome Linked List",
+        link: "https://leetcode.com/problems/palindrome-linked-list/",
+      },
+      {
+        name: "Add Two Numbers",
+        link: "https://leetcode.com/problems/add-two-numbers/",
       },
     ],
   },
@@ -188,6 +196,18 @@ const list = [
       {
         name: "LCA of Binary Tree",
         link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      },
+      {
+        name: "Path Sum",
+        link: "https://leetcode.com/problems/path-sum/",
+      },
+      {
+        name: "Number of Islands",
+        link: "https://leetcode.com/problems/number-of-islands/",
+      },
+      {
+        name: "Flood Fill",
+        link: "https://leetcode.com/problems/flood-fill/",
       },
     ],
   },

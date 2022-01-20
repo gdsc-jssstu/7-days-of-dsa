@@ -6,7 +6,6 @@ function Resources({ resources }) {
       <h5 className="mb-2 text-quicksand-medium">Resources</h5>
 
       <div className="px-2">
-        
         {/* Youtube References */}
         {resources["YouTube"]?.length !== 0 && (
           <div className="my-2">
@@ -36,7 +35,9 @@ function Resources({ resources }) {
             <ul>
               {resources["Blogs"]?.map((item) => (
                 <li key={item.link}>
-                  <a href={item.link}>{item.name || item.link}</a>
+                  <a href={item.link} target="_blank" rel="noreferrer noopener">
+                    {item.name || item.link}
+                  </a>
                 </li>
               ))}
             </ul>
