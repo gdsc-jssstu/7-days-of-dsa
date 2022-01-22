@@ -18,9 +18,9 @@ function Resources({ resources }) {
                     height="150"
                     title={item.name || item.link}
                     src={item.link}
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
               ))}
