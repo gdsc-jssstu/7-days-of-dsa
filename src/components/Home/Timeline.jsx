@@ -24,8 +24,8 @@ function Timeline() {
                   }
                 }, 0);
                 let total = item.problems.length;
-                percentage = (completed / total) * 100;
-                console.log(item.topic + " :" + percentage);
+                percentage = Math.floor((completed / total) * 100);
+                // console.log(item.topic + " :" + percentage);
               }
 
               return (

@@ -220,12 +220,12 @@ const list = [
     resources: {
       Blogs: [
         {
-          name: "XYZ",
-          link: "xyz.com",
+          name: "Searching in Data Structure – Different Search Methods Explained",
+          link: "https://www.analyticsvidhya.com/blog/2021/09/searching-in-data-structure-different-search-methods-explained/#:~:text=Searching%20in%20data%20structure%20refers,elements%20in%20the%20computer%20memory.&text=Another%20way%20to%20define%20searching,in%20a%20collection%20of%20items.",
         },
         {
-          name: "ABCD",
-          link: "abcd.com",
+          name: "Sorting Algorithms",
+          link: "https://www.geeksforgeeks.org/sorting-algorithms/",
         },
       ],
       YouTube: [
@@ -248,6 +248,10 @@ const list = [
         name: "Sorting The Sentence",
         link: "https://leetcode.com/problems/sorting-the-sentence/",
       },
+      {
+        name: "Find Minimum In Rotated Sorted Array",
+        link: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+      },
     ],
   },
   {
@@ -259,22 +263,22 @@ const list = [
     resources: {
       Blogs: [
         {
-          name: "XYZ",
-          link: "xyz.com",
+          name: "Recursion",
+          link: "https://www.google.com/amp/s/www.geeksforgeeks.org/recursion/amp/",
         },
         {
-          name: "ABCD",
-          link: "abcd.com",
+          name: "Backtracking Algorithms",
+          link: "https://www.baeldung.com/cs/backtracking-algorithms#:~:text=Backtracking%20is%20an%20algorithmic%20technique,satisfy%20them%20will%20be%20removed.",
         },
       ],
       YouTube: [
         {
-          name: "XYZ",
-          link: "https://www.youtube.com/embed/W9QJ8HaRvJQ",
+          name: "Recursion",
+          link: "https://www.youtube.com/embed/M2uO2nMT0Bk",
         },
         {
-          name: "ABCD",
-          link: "https://www.youtube.com/embed/derefdsfdf",
+          name: "Backtracking",
+          link: "https://www.youtube.com/embed/zg5v2rlV1tM",
         },
       ],
     },
@@ -298,7 +302,7 @@ const list = [
     topic: "Dynamic Programming and Greedy Techniques",
     slug: "day-7-dp-and-greedy",
     date: "2022-01-26",
-    content: `Greedy algorithms are very intuitive. For any problem, they chose the next step based on the choice with the most benefit, based on the problem. It chooses the “locally optimal solution”, without thinking about future consequences.  <br/><br/>Let's make recursion more efficient and optimised! With dynamic programming, you can cut down on recursion calls that are repeated by storing the values of recursion calls as they happen and referencing it. This can drastically help us with reducing the time the code will take while executing, which is always a plus.`,
+    content: `Let's make recursion more efficient and optimized! With dynamic programming, you can cut down on recursion calls that are repeated by storing the values of recursion calls as they happen and referencing it. This can drastically help us with reducing the time the code will take while executing, which is always a plus.  <br/><br/>Greedy algorithms are very intuitive. For any problem, they chose the next step based on the choice with the most benefit, based on the problem. It chooses the “locally optimal solution”, without thinking about future consequences.`,
     resources: {
       Blogs: [
         {
@@ -306,18 +310,18 @@ const list = [
           link: "https://nstfblogs.netlify.app/blogs/dynamicProgramming",
         },
         {
-          name: "ABCD",
-          link: "abcd.com",
+          name: "Greedy Algorithms",
+          link: "https://brilliant.org/wiki/greedy-algorithm/#:~:text=A%20greedy%20algorithm%20is%20a,to%20solve%20the%20entire%20problem.&text=However%2C%20in%20many%20problems%2C%20a,not%20produce%20an%20optimal%20solution.",
         },
       ],
       YouTube: [
         {
-          name: "XYZ",
-          link: "https://www.youtube.com/embed/W9QJ8HaRvJQ",
+          name: "DP",
+          link: "https://www.youtube.com/embed/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go",
         },
         {
-          name: "ABCD",
-          link: "https://www.youtube.com/embed/derefdsfdf",
+          name: "Greedy",
+          link: "https://www.youtube.com/embed/playlist?list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW",
         },
       ],
     },

@@ -20,10 +20,10 @@ function Home() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 mx-2 mx-md-auto px-4 px-md-5">
+          <div className="col-lg-6 mx-2 mx-lg-auto px-4 px-lg-5">
             <Header />
           </div>
-          <div className="col-md-6 mx-2 mx-md-auto px-4 px-md-5">
+          <div className="col-lg-6 mx-2 mx-lg-auto px-4 px-lg-5">
             <Timeline />
           </div>
         </div>
